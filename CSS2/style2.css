@@ -1,0 +1,362 @@
+
+
+.background {
+    height: 5438px;
+    background-image: url("../Images2/Rectangle.png");
+    background-position: center;
+    margin: 0%;
+  }
+
+
+.headerimage {
+    background-image: url("../Images2/fullsize.png");
+    background-repeat: no-repeat;
+    height: 6000px;
+    opacity: 75%;
+}
+
+.headline {
+    display: flex;
+    background-color: 231409;
+    padding: 20px;
+  }
+
+.topnavigation a {
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    font-size: 4vw;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    transition: all 0.5 ease-out;
+}
+
+.topnavigation a:hover {
+    background-color:#8d976d;
+    
+   
+}
+
+.facephoto {
+    height: 750px;
+    background-image: url("../Images2/Face.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .tagline a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1;
+}
+
+.circle {
+    background-image: url("../Images2/Vector.png");
+    background-repeat: no-repeat;
+    height: 1430px;
+}
+
+.chart {
+    background-image: url("../Images2/Double-Diamond.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 700px;
+    float: left;
+    margin: 100px;
+    margin-right: 0px;
+    margin-top: 575px;
+}
+
+.introtext .p1, .p2, .p3 {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    margin-left: 900px;
+    margin-right: 100px;
+    padding-top: 75px;
+    color: white;
+    overflow-wrap: normal;
+    }
+   
+.tagline2 {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 125px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 0.8;
+    margin-left: 100px;
+    margin-right: 700px;
+    margin-top: -50px;
+}
+
+.lists {
+    padding-top: 100px;
+    align-content: center;
+
+}
+
+.card-body {
+    background-color: #8d976d;
+    color: white;
+}
+
+.footer {
+    padding-top: 1500px;
+}
+
+.footrec {
+    width: 100vw;
+    height: 20vw;
+    background-color: #231409;
+    border: 1px solid black;
+    
+}
+
+.footrec a {
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 3vw;
+    display: inline-block;
+    flex-direction: column;
+    
+   
+}
+
+.footcircle {
+    background-image: url("../Images2/Linkedin-Free-Download-PNG.png");
+    backgroung-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+
+
+
+
+
+
+
+
+/*
+html {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width:100%;
+    display: flex; 
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header {
+   width:100%;
+   justify-content: space-between;
+    }
+
+.header a {
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    font-size: 4vw;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-right: 18px;
+    background-color: white;
+    transition: all 0.5 ease-out;
+    
+
+}
+
+.header a:hover {
+    background-color: 573D2A;
+}
+
+.headline {
+    display: flex;
+    background-color: 231409;
+    padding: 20px;
+
+  }
+
+  .facephoto {
+    height: 700px;
+    background-image: url("../Images2/Face.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+  }
+
+  .headerimage {
+    background-image: url("../Images2/annie.png");
+    height: 2000px;
+    opacity: 85%;
+}
+
+  .background {
+    height: 4882px;
+    background-image: url("../Images2/Rectangle.png");
+    background-position: center;
+    margin: 0%;
+  }
+
+  body {
+    background-color: 573D2A;
+    height: 4000px;
+}
+
+.tagline a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1;
+}
+
+#chart {
+  background-image: url("../Images2/Double-Diamond.png");
+  height: 500px;
+  width: 700px;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 100px;
+  margin-right: 0px;
+}
+
+
+.introtext .p1, .p2, .p3 {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    margin-left: 900px;
+    margin-right: 100px;
+    padding-top: 75px;
+    color: white;
+    position: relative;
+    overflow-wrap: normal;
+    
+}
+
+.introtext .p1 {
+    padding-top: 150px;
+}
+
+.circle {
+    background-image: url("../Images/Vector.png");
+    height: 1430px;
+    background-repeat: no repeat;
+    position: relative;
+    z-index: 2;
+}
+
+.footerimage {
+    background-image: url("../Images2/footerpic2.png");
+    height: 2800px;
+    background-repeat: no-repeat;
+    padding-top: -4000px;
+    position: absolute;
+    z-index: 1;
+}
+
+.footersquare {
+    background-image: url("../Images2/Rec10.png");
+    padding-top: 200px;
+}
+
+.tagline2 {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 125px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 0.8;
+    margin-left: 100px;
+    margin-right: 700px;
+    margin-top: -50px;
+
+
+}
+
+.heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+
+  #heroGrid {
+    margin: 0px 5%;
+    margin-left: 250px;
+    display: grid;
+    min-height: 500px;
+    height: 40vh;
+    width: 35vh;
+    grid-template-rows: 50% 50% 100% 100%;
+    grid-template-columns: 30% 30% 150% 250%;
+    grid-template-areas:
+    "study1 study1 study1 p"
+    
+  }
+
+
+  p {
+    grid-area: p;
+    padding: 50px;
+    padding-top: 140px;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+
+  }
+
+  #study1 {
+    grid-area: study1;
+    background-image: url("../Images2/pic1.png");
+    background-size:auto;
+    margin-top: 100px;
+  }
+  
+
+@media only screen and (max-width: 800px) {
+    .header a {
+        font-size: 3vw;
+    }
+    
+}
+*/
